@@ -34,12 +34,12 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 				<div class="form-field">
 					<label for="chipbgcolor">Chip Color</label>
 					<input name="chipbgcolor" id="chipbgcolor" type="text" size="40" value="" placeholder="">
-					<p class="description">Choose color or add HEX code to see a preview of the chip.</p>
+					<p class="description">Add an HTML color name or HEX code to see a preview of the chip.</p>
 				</div>
 				<div class="form-field">
 					<label for="chiptxtcolor">Chip Text Color</label>
 					<input name="chiptxtcolor" id="chiptxtcolor" type="text" size="40" value="" placeholder="">
-					<p class="description">Choose color or add HEX code to see a preview of the chip.</p>
+					<p class="description">Add an HTML color name or HEX code to see a preview of the chip.</p>
 				</div>
 				<div class="form-field" id="chip-demo">
 					<label>Preview</label>
@@ -67,7 +67,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		        </th>
 		        <td>
 		            <input name="chipbgcolor" id="chipbgcolor" type="text" size="40" value="<?php echo $chip_text_obj['chip_bg_color']; ?>" placeholder="">
-		            <p class="description">Choose color or add HEX code to see a preview of the chip.</p>
+		            <p class="description">Add an HTML color name or HEX code to see a preview of the chip.</p>
 		        </td>
 		    </tr>
 		    </tr>
@@ -77,7 +77,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		        </th>
 		        <td>
 		            <input name="chiptxtcolor" id="chiptxtcolor" type="text" size="40" value="<?php echo $chip_text_obj['chip_txt_color']; ?>" placeholder="">
-		            <p class="description">Choose color or add HEX code to see a preview of the chip.</p>
+		            <p class="description">Add an HTML color name or HEX code to see a preview of the chip.</p>
 		        </td>
 		    </tr>
 			<tr class="form-field" id="chip-demo">
