@@ -1,0 +1,20 @@
+.tag-chip {
+	background: #ececec;
+	padding: 3px 10px;
+	border-radius: 15px;
+	font-size: 12px;
+	text-align: center;
+	display: inline-block;
+	margin-right: 3px;
+	cursor: default;
+}
+.white-display-box {
+	background: #fff;
+	width: 95%;
+	padding: 1% 0;
+	text-align: center;
+	display: none;
+}
+#chip-demo {
+	display: none;
+}
