@@ -19,8 +19,19 @@
 .chip-form-middle, .chip-form-bottom {
 	display: none;
 }
+#addtag .chip-form {
+	margin: 0;
+	padding: 0 1em;
+}
+#addtag p.description {
+	padding: 2px 0 5px;
+	margin: 0;
+}
 .chip-form {
 	border: solid 2px #ddd;
+}
+.chip-form > th > label {
+	padding-left: 1em;
 }
 .chip-form-top {
 	border-width: 2px 2px 0 2px;
@@ -30,4 +41,11 @@
 }
 .chip-form-bottom {
 	border-width: 0 2px 2px 2px;
+}
+#addtag .chip-form-bottom {
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+#addtag .chip-form-alone {
+	margin-bottom: 1em;
 }

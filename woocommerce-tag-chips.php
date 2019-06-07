@@ -26,22 +26,22 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		add_action( "{$taxonomy}_edit_form_fields", 'edit_chip_tag_form', 10, 2 );
 		function add_chip_tag_form( $taxonomy ) {
 			?>
-				<div class="form-field">
+				<div class="form-field chip-form chip-form-top">
 					<label for="chiptext">Chip Text</label>
 					<input name="chiptext" id="chiptext" type="text" size="40" value="" placeholder="">
 					<p class="description">Add text to see a preview of the chip that will appear above the product name.</p>
 				</div>
-				<div class="form-field">
+				<div class="form-field chip-form chip-form-middle">
 					<label for="chipbgcolor">Chip Color</label>
 					<input name="chipbgcolor" id="chipbgcolor" type="text" size="40" value="" placeholder="">
 					<p class="description">Add an HTML color name or HEX code to see a preview of the chip.</p>
 				</div>
-				<div class="form-field">
+				<div class="form-field chip-form chip-form-middle">
 					<label for="chiptxtcolor">Chip Text Color</label>
 					<input name="chiptxtcolor" id="chiptxtcolor" type="text" size="40" value="" placeholder="">
 					<p class="description">Add an HTML color name or HEX code to see a preview of the chip.</p>
 				</div>
-				<div class="form-field" id="chip-demo">
+				<div class="form-field chip-form chip-form-bottom" id="chip-demo">
 					<label>Preview</label>
 					<div class="white-display-box"><div class="tag-chip"></div></div>
 				</div>
