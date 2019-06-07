@@ -139,13 +139,14 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 	// Register admin style sheet.
 	add_action( 'admin_enqueue_scripts', 'register_admin_tag_chips_styles' );
 	function register_admin_tag_chips_styles() {
-		wp_enqueue_style( 'woocommerce-tag-chips-admin-style', plugins_url('/woocommerce-tag-chips/admin/css/' ) . 'woocommerce-tag-chips.css' );
-		wp_enqueue_script('woocommerce-tag-chips-admin-script', plugins_url('/woocommerce-tag-chips/admin/js/' ) . 'woocommerce-tag-chips.js' );
+		wp_enqueue_style( 'woocommerce-tag-chips-admin-style', plugins_url( dirname(__FILE__) ) . '/admin/css/woocommerce-tag-chips.css' );
+		wp_enqueue_script('woocommerce-tag-chips-admin-script', plugins_url( dirname(__FILE__) ) . '/admin/js/woocommerce-tag-chips.js' );
 	};
 	// Register public style sheet.
 	add_action( 'wp_enqueue_scripts', 'register_public_tag_chips_styles' );
 	function register_public_tag_chips_styles() {
-		wp_register_style( 'woocommerce-tag-chips-public-style', plugins_url('/woocommerce-tag-chips/public/css/' ) . 'woocommerce-tag-chips.css' );
+
+		wp_register_style( 'woocommerce-tag-chips-public-style', plugins_url( dirname(__FILE__) ) . '/public/css/woocommerce-tag-chips.css' );
 		wp_enqueue_style('woocommerce-tag-chips-public-style');
 	};
 }
