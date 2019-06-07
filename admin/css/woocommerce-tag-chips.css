@@ -7,6 +7,7 @@
 	display: inline-block;
 	margin-right: 3px;
 	cursor: default;
+	user-select: none;
 }
 .white-display-box {
 	background: #fff;
@@ -15,6 +16,18 @@
 	text-align: center;
 	display: none;
 }
-#chip-demo {
+.chip-form-middle, .chip-form-bottom {
 	display: none;
+}
+.chip-form {
+	border: solid 2px #ddd;
+}
+.chip-form-top {
+	border-width: 2px 2px 0 2px;
+}
+.chip-form-middle {
+	border-width: 0 2px 0 2px;
+}
+.chip-form-bottom {
+	border-width: 0 2px 2px 2px;
 }

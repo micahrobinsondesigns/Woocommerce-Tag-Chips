@@ -52,7 +52,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 			$chip_text_str = get_option( "chip_$termid" );
 			$chip_text_obj = unserialize( $chip_text_str );
 			?>
-		    <tr class="form-field">
+		    <tr class="form-field chip-form chip-form-top">
 		        <th valign="top" scope="row">
 		            <label for="chiptext">Chip Text</label>
 		        </th>
@@ -61,7 +61,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		            <p class="description">Add text to see a preview of the chip that will appear above the product name.</p>
 		        </td>
 		    </tr>
-			<tr class="form-field">
+			<tr class="form-field chip-form chip-form-middle">
 		        <th valign="top" scope="row">
 		            <label for="chipbgcolor">Chip Color</label>
 		        </th>
@@ -71,7 +71,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		        </td>
 		    </tr>
 		    </tr>
-			<tr class="form-field">
+			<tr class="form-field chip-form chip-form-middle">
 		        <th valign="top" scope="row">
 		            <label for="chiptxtcolor">Chip Text Color</label>
 		        </th>
@@ -80,9 +80,9 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		            <p class="description">Add an HTML color name or HEX code to see a preview of the chip.</p>
 		        </td>
 		    </tr>
-			<tr class="form-field" id="chip-demo">
+			<tr class="form-field chip-form chip-form-bottom" id="chip-demo">
 		        <th valign="top" scope="row">
-		            <label for="chiptext">Chip Demo</label>
+		            <label for="chiptext">Preview</label>
 		        </th>
 						<td>
 							<div class="white-display-box"><div class="tag-chip" style="background-color:<?php echo $chip_text_obj['chip_bg_color']; ?>;color:<?php echo $chip_text_obj['chip_txt_color']; ?>;"><?php echo $chip_text_obj['chip_text']; ?></div></div>
