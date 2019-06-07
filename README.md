@@ -5,7 +5,7 @@ This plugin creates the ability to add custom "chips" for product pages using Wo
 
 ## You are able to create a chip with a brand new tag
 
-![New-Tag-Chip](https://user-images.githubusercontent.com/6086346/58735970-14a02380-83b1-11e9-838f-fdacd6e577f1.png)
+![New-Tag-Chip](https://user-images.githubusercontent.com/6086346/59132962-643f9b80-892b-11e9-8a5c-48df6febce5f.png)
 
 ## or edit a previously existing tag to include a chip.
 
