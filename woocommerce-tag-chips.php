@@ -3,7 +3,7 @@
 /**
  * @wordpress-plugin
  * Plugin Name:       Woocommerce Tag Chips
- * Description:       Add form fields to Edit Tag page in wp-admin
+ * Description:       Add form fields to Add/Edit Tag page in wp-admin
  * Version:           1.0
  * Author:            Micah Robinson
  * License:           GPL-2.0
