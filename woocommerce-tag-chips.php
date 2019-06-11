@@ -15,7 +15,7 @@
 /** Die if accessed directly
 */
 
-defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+defined( 'ABSPATH' ) || exit;
 
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
 		// ONLY RUN IF WOOCOMMERCE IS ACTIVE....
