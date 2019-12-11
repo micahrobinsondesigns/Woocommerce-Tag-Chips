@@ -11,4 +11,4 @@ This plugin creates the ability to add custom "chips" for product pages using Wo
 
 ![Clearance-Item-Chip](https://user-images.githubusercontent.com/6086346/59132164-3c4f3880-8929-11e9-90fa-f76aa39a15f6.png)
 
-To add color to the chip or the text of the chip simply type in either the an HTML color name, or paste in a hex color code. The # at the beginning of the hex will be generated automatically depending on what you type in the form fields.
+To add color to the chip or the text of the chip simply type in either an HTML color name, or paste in a hex color code. The # at the beginning of the hex will be generated automatically depending on what you type in the form fields.
